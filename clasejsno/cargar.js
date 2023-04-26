@@ -27,7 +27,7 @@ function nuevo(){
         return;
       }
     
-      for (let i = 0; i < identificacion.length; i++) {
+      for (let i = 0; i < tabla.length; i++) {
         if (tabla[i].identificacion === identificacion) {
           alert("El ID de usuario ya existe");
           return;
